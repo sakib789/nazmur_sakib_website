@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    margin-left: 8%;
+    margin-top: 10px;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    padding-left: 4%;
+    padding-right: 4%;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+nav{
+    
+    flex: 1;
+    text-align: right;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:#3C3C3C;
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+.page_top{
+    width: 50%;
+    margin-top: 80px;
+    float: left;
+}
+h1{
+    font-family: Bebas Neue;
+    font-size: 50px;
+    font-weight: 700;
+    color:#363958 ;
+}
+.name{
+    color: #F46060;
+}
+section p{
+    width: 70%;
+    color: #3E3E3E;
+}
+.page_top img{
+    width: 80%;
+}
+button a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+button{
+    width: 170px;
+    height: 60px;
+    background: linear-gradient(0deg, #FF8063 -28.33%, #F46060 95.83%);
+    border-radius: 6px;
+    border: none;
+    margin-top: 30px;
+}
+
+.page_mid{
+    width: 50%;
+    margin-top: 80px;
+    float: left;
+}
+
+.page_mid img{
+    width: 100%;
+}
+.page_mid h1{
+    margin-top: 170px;
+}
